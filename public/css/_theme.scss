@@ -1,0 +1,50 @@
+:root {
+    --color-primary: #0C5ADB;
+    --color-white: white;
+    --color-black: black;
+    --color-bg-light: #F7F9FB;
+    --gap-standard: 1.3rem;
+    --margin: 1.3rem;
+}
+
+
+
+.gap-standard {
+    gap: var(--gap-standard);
+}
+
+.height-110svh {
+    height: 110svh;
+}
+
+section,
+footer {
+    position: relative;
+    z-index: 2;
+    padding-block: 2rem;
+}
+
+section>* {
+    padding-inline: 1rem;
+
+}
+
+.bg-light {
+    background-color: var(--color-bg-light);
+}
+
+.auto-width {
+    width: min(1200px, 100%);
+    margin-inline: auto;
+
+}
+
+.container-text {
+    grid-template-rows: min-content min-content min-content min-content;
+}
+
+@media (min-width: 33em) {
+    section {
+        padding-inline: 0;
+    }
+}

@@ -1,0 +1,38 @@
+#services{
+
+    .container:nth-child(1){
+        max-width: 1350px;
+        margin-inline: auto;
+
+
+        .container-title{
+            h4 {
+                    margin-block: auto;
+            
+                }
+            
+                h4::before {
+                    content: "";
+                    display: inline-block;
+                    height: .3rem;
+                    width: 40px;
+                    background: var(--color-primary);
+                    margin-right: 1rem;
+                    margin-bottom: .8rem;
+                }
+        }
+
+        .container-cards{
+            margin-block: 3.5rem;
+
+        }
+    
+
+        @media(min-width: 33em){
+            .container-title {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+    }
+}

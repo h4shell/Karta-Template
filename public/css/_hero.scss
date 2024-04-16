@@ -1,0 +1,31 @@
+#hero {
+    position: relative;
+    background: var(--color-white);
+
+
+    h4 {
+        max-width: min(650px, 100% - 1rem);
+        color: var(--color-white);
+        line-height: calc(var(--step-2) * 1.1);
+        font-size: var(--step-2);
+        margin-block: 2rem 4rem;
+    }
+
+    img {
+        width: min(1200px, 100%);
+    }
+
+
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80%;
+    background: #111A3A;
+    z-index: -1;
+
+}

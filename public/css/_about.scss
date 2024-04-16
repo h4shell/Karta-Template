@@ -1,0 +1,55 @@
+#about {
+
+    .container-cards {
+
+        transform: translateY(-80px);
+
+
+
+        .card {
+            .img {
+                height: 80px;
+                aspect-ratio: 1/1;
+                background: var(--color-bg-light);
+                border-radius: 50%;
+
+            }
+        }
+
+        .card:nth-child(2) {
+            background: var(--color-primary);
+            color: var(--color-white)
+        }
+
+    }
+
+    .container-about {
+        padding-block: 6rem;
+        max-width: 1100px;
+        margin: 0 auto;
+
+        .container-img {
+            background: url(/public/images/img-about-1.png);
+            max-height: 400px;
+            aspect-ratio: 1/1;
+            background-size: cover;
+            position: relative;
+            margin-block: auto;
+        }
+
+        .container-img::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: var(--color-primary);
+            transform: translate(15px, 15px);
+            z-index: -1;
+
+        }
+
+        .container-text {
+            margin-block: auto;
+            grid-template-rows: min-content min-content min-content min-content;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+#competence {
+    padding-block: 5rem;
+
+    .container-competence {
+        .container-img {
+            margin-block: auto;
+        }
+
+        .container-text {
+            margin-block: auto;
+
+
+
+            .container-code {
+                ul {
+                    display: grid;
+                    gap: 2rem;
+
+                    .item {
+                        display: flex;
+                        gap: 2rem;
+
+                        .container-img {
+                            height: 70px;
+                            aspect-ratio: 1/1;
+
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                        }
+
+                        h4 {
+                            font-size: var(--step--1);
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+header {
+
+
+    .container-text {
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        padding-inline: 1rem;
+    }
+
+    .__carousel::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to left, #0000004d, #000000);
+        z-index: 1;
+    }
+
+    .__wrapper-navigator {
+        bottom: 8.5rem !important;
+    }
+}
+
+
+@media(min-width: 33em) {
+    header {
+        .container-text {
+            max-width: 50vw;
+            margin-left: 3rem;
+        }
+    }
+}

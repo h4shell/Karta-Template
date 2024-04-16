@@ -1,0 +1,14 @@
+#experience{
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 3rem;
+
+    .container-text{
+        grid-template-rows: min-content min-content min-content min-content;
+    }
+
+    .container-img{
+        margin-inline: auto;
+    }
+    
+}

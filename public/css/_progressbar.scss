@@ -1,0 +1,85 @@
+#__container-progressbar {
+    padding-block: 2rem;
+    display: grid;
+    gap: 3.2rem;
+
+    .bar {
+
+        border-radius: 50px;
+        height: 10px;
+        width: 100%;
+        position: relative;
+
+        .title {
+            position: absolute;
+            top: -25px;
+            left: 0;
+
+        }
+
+        .progress {
+            position: absolute;
+            inset: 0;
+
+            width: 90%;
+            border-radius: 50px;
+            background: red;
+
+            .percentage {
+                position: absolute;
+                inset: 0;
+                right: -20px;
+                text-align: right;
+                top: -25px;
+                font-weight: bold;
+
+            }
+
+        }
+    }
+}
+
+
+@media (min-width: 80em) {
+    .__container-progressbar {
+        padding-block: 2rem;
+        display: grid;
+        gap: 3.2rem;
+
+        .bar {
+
+            border-radius: 50px;
+            height: 10px;
+            width: 100%;
+            position: relative;
+
+            .title {
+                position: absolute;
+                top: -25px;
+                left: 0;
+
+            }
+
+            .progress {
+                position: absolute;
+                inset: 0;
+
+                width: 90%;
+                border-radius: 50px;
+                background: red;
+
+                .percentage {
+                    position: absolute;
+                    inset: 0;
+                    right: 20px;
+                    text-align: right;
+                    top: -25px;
+                    font-weight: bold;
+
+                }
+
+            }
+        }
+    }
+
+}
