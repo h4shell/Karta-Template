@@ -332,7 +332,7 @@ header {
   margin: 0 auto;
 }
 #about .container-about .container-img {
-  background: url(/public/images/img-about-1.png);
+  background: url(../images/img-about-1.png);
   max-height: 400px;
   aspect-ratio: 1/1;
   background-size: cover;
@@ -521,7 +521,7 @@ span.separator::after {
 #testimonials {
   padding-block: 3.5rem;
   color: white;
-  background: url(/public/images/img-bg-testimonuials.png);
+  background: url(../images/img-bg-testimonuials.png);
   background-size: cover;
 }
 #testimonials h5 {
